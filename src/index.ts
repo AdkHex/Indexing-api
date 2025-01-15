@@ -1,5 +1,5 @@
 import express from "express";
-import { driveService } from "./services/driveservice.js";
+import { driveService } from "./services/driveservice";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
